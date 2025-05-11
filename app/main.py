@@ -52,4 +52,5 @@ async def whatsapp_webhook(
 
 # Run server locally
 if __name__ == "__main__":
-    uvicorn.run("stg_chatbot_fastapi:app", host="0.0.0.0", port=8000, reload=True)
+    pass
+    # uvicorn.run("stg_chatbot_fastapi:app", host="0.0.0.0", port=8000, reload=True)
